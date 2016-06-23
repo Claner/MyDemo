@@ -6,6 +6,8 @@
     <color name="white">#ffffff</color>
     <color name="grey">#FFE1E8EB</color>
     <color name="blue_nav_bg_nomal">#2CA7EA</color>
+    <color name="grey_lv_one">#BFBFBF</color>
+    <color name="grey_lv_two">#808080</color>
     <!--应用基础色调-->
     <color name="app_base_color">#0099CC</color>
 </resources>

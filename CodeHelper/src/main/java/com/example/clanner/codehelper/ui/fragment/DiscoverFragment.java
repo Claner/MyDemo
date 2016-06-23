@@ -5,6 +5,7 @@ import android.view.View;
 
 import com.example.clanner.codehelper.R;
 import com.example.clanner.codehelper.ui.activity.AboutActivity;
+import com.example.clanner.codehelper.ui.activity.TestActivity;
 import com.example.clanner.codehelper.utils.CommonUtils;
 
 import butterknife.OnClick;
@@ -14,7 +15,7 @@ import butterknife.OnClick;
  */
 public class DiscoverFragment extends BaseFragment {
 
-    public static DiscoverFragment newInstance(){
+    public static DiscoverFragment newInstance() {
         return new DiscoverFragment();
     }
 
@@ -28,38 +29,28 @@ public class DiscoverFragment extends BaseFragment {
         return R.layout.fragment_discover;
     }
 
-    @OnClick(R.id.btn_sponsor)
-    public void sponsor() {
-       toast("赞助作者");
+    @OnClick({R.id.btn_sponsor, R.id.btn_usage, R.id.btn_rateapp, R.id.btn_uodate, R.id.btn_opensource, R.id.btn_about})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_sponsor:
+                break;
+            case R.id.btn_usage:
+                //测试
+                Test();
+                break;
+            case R.id.btn_rateapp:
+                break;
+            case R.id.btn_uodate:
+                break;
+            case R.id.btn_opensource:
+                break;
+            case R.id.btn_about:
+                CommonUtils.StartActivity(getActivity(), AboutActivity.class);
+                break;
+        }
     }
 
-    @OnClick(R.id.btn_usage)
-    public void usage() {
-        toast("使用手册");
-    }
-
-    @OnClick(R.id.btn_feedback)
-    public void feedback() {
-        toast("意见反馈");
-    }
-
-    @OnClick(R.id.btn_rateapp)
-    public void rateapp() {
-        toast("评价应用");
-    }
-
-    @OnClick(R.id.btn_uodate)
-    public void update() {
-        toast("检查更新");
-    }
-
-    @OnClick(R.id.btn_opensource)
-    public void opensource() {
-        toast("开源项目");
-    }
-
-    @OnClick(R.id.btn_about)
-    public void about() {
-        CommonUtils.StartActivity(getActivity(), AboutActivity.class);
+    private void Test() {
+        CommonUtils.StartActivity(getActivity(), TestActivity.class);
     }
 }
