@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout style="@style/LinearLayout.list_horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_java"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_java"/>
+
+            <TextView
+                android:id="@+id/btn_java_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_java_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_android"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_android"/>
+
+            <TextView
+                android:id="@+id/btn_android_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_android_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_php"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_php"/>
+
+            <TextView
+                style="@style/TextView.item_main"
+                android:text="@string/btn_php_tv_value"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/ic_line_1"/>
+
+    <LinearLayout style="@style/LinearLayout.list_horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_python"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_python"/>
+
+            <TextView
+                android:id="@+id/btn_python_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_python_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_javascript"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_javascript"/>
+
+            <TextView
+                android:id="@+id/btn_javascript_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_javascript_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_c"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_c"/>
+
+            <TextView
+                android:id="@+id/btn_c_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_c_tv_value"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/ic_line_1"/>
+
+    <LinearLayout
+        style="@style/LinearLayout.list_horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_angular"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_angular"/>
+
+            <TextView
+                android:id="@+id/btn_angular_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_angular_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_scala"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_scala"/>
+
+            <TextView
+                android:id="@+id/btn_scala_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_scala_tv_value"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_line_3"/>
+
+        <LinearLayout
+            android:id="@+id/btn_http2"
+            style="@style/LinearLayout.list_module">
+
+            <ImageView
+                style="@style/ImageView.item_main"
+                android:background="@drawable/ic_widget_download"/>
+
+            <ImageView
+                style="@style/ImageView.item_main_module"
+                android:background="@drawable/ic_module_http2"/>
+
+            <TextView
+                android:id="@+id/btn_http2_tv"
+                style="@style/TextView.item_main"
+                android:text="@string/btn_http2_tv_value"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
