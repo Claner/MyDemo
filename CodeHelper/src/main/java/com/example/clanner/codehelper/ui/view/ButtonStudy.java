@@ -15,4 +15,6 @@ public class ButtonStudy extends View{
     public ButtonStudy(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
+
+
 }

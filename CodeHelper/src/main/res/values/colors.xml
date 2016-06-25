@@ -8,6 +8,9 @@
     <color name="blue_nav_bg_nomal">#2CA7EA</color>
     <color name="grey_lv_one">#BFBFBF</color>
     <color name="grey_lv_two">#808080</color>
+    <color name="test_background">#00BEAF</color>
+    <color name="uncompleted_color">#A3E0D9</color>
+    <color name="uncompleted_text_color">#F8F8F8</color>
     <!--应用基础色调-->
     <color name="app_base_color">#0099CC</color>
 </resources>
