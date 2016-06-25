@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodeHelper.iml" filepath="$PROJECT_DIR$/CodeHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CodeHelper/CodeHelper-CodeHelper.iml" filepath="$PROJECT_DIR$/CodeHelper/CodeHelper-CodeHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swipeback/swipeback.iml" filepath="$PROJECT_DIR$/swipeback/swipeback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ButterknifeDemo/ButterknifeDemo.iml" filepath="$PROJECT_DIR$/ButterknifeDemo/ButterknifeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxDemo/RxDemo.iml" filepath="$PROJECT_DIR$/RxDemo/RxDemo.iml" />
     </modules>
   </component>
 </project>
