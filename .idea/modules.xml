@@ -4,9 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaiDuDemo/BaiDuDemo.iml" filepath="$PROJECT_DIR$/BaiDuDemo/BaiDuDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ButterknifeDemo/ButterknifeDemo.iml" filepath="$PROJECT_DIR$/ButterknifeDemo/ButterknifeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LocationDemo/LocationDemo.iml" filepath="$PROJECT_DIR$/LocationDemo/LocationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PickerViewDemo/PickerViewDemo.iml" filepath="$PROJECT_DIR$/PickerViewDemo/PickerViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" filepath="$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReplyListDemo/ReplyListDemo.iml" filepath="$PROJECT_DIR$/ReplyListDemo/ReplyListDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxDemo/RxDemo.iml" filepath="$PROJECT_DIR$/RxDemo/RxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestDemo/TestDemo.iml" filepath="$PROJECT_DIR$/TestDemo/TestDemo.iml" />
     </modules>
   </component>
 </project>
